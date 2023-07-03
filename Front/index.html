@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <Header>
+        <div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+            
+            <p class="typing-effect"><strong>Jonathan C. do Amaral</strong></p>
+            <button class="button2" onclick="auto()" > Auto preencher</button>
+        </div>
+
+        <div style="display: flex; gap:30px">
+            <input class="credentials" id="secretKey" type="text" placeholder="Api Key">
+            <input class="credentials" style="width: 300px;" id="endPoint"  type="text" placeholder="End Point">
+        </div>
+    </Header>
+    
+    <div class="display">
+        <section class="Left">        
+                    <h1 > - brute-force attack software <br> [Code Challenge 200 - Ok]</h1>
+                    
+
+                    <div class="inputsDiv">
+                        <input class="inputs" type="number" name="" id="intervalStart" placeholder="First password here..." value="">
+                        <input class="inputs" type="number" name="" id="intervalEnd" placeholder="Last password here..." value="">       
+                        <button class="button"onclick="getSettings()">SUDO START</button>
+                    </div>
+                    
+                    
+        </section>      
+        
+        <section class="Right" >              
+           <!-- //<img width="300px" src="./img/computer-hacker-illustration-png.webp" alt="Hacker" > -->
+           <textarea style="color: rgb(0, 100, 42);" name="" id="resultTxt" cols="60" rows="15">$. brute-force -codeChallenge</textarea>
+        </section>
+    </div>
+
+    
+    
+</body>
+</html>
